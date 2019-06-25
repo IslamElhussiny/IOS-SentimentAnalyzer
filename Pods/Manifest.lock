@@ -1,0 +1,46 @@
+PODS:
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - Macaw (0.9.5):
+    - SWXMLHash
+  - SwiftyJSON (5.0.0)
+  - SWXMLHash (4.9.0)
+
+DEPENDENCIES:
+  - Charts (from `https://github.com/danielgindi/Charts`)
+  - Macaw (from `https://github.com/exyte/Macaw`)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SWXMLHash
+
+EXTERNAL SOURCES:
+  Charts:
+    :git: https://github.com/danielgindi/Charts
+  Macaw:
+    :git: https://github.com/exyte/Macaw
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Charts:
+    :commit: e8505930018668b73500203afc13bb92fa585f8a
+    :git: https://github.com/danielgindi/Charts
+  Macaw:
+    :commit: 60b145c403f0c55ab683aee76a3b209d3cb0be80
+    :git: https://github.com/exyte/Macaw
+  SwiftyJSON:
+    :commit: bad5f2f94a71216a32c030a3586bdcfc1f7e660b
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Charts: bcd81a359eb40ff7606d198dfcc740032ca184fe
+  Macaw: 9fcfcff649927df9a78074608191f8efb0fa582e
+  SwiftyJSON: f0574c07d8ca1644050db687067209e3033a89a0
+  SWXMLHash: 87b0006848a548b7f9485b40bc71721b3ae39add
+
+PODFILE CHECKSUM: d4ed774c17b5745ed7e559ab7c4b9f7ad36d22c1
+
+COCOAPODS: 1.7.1
